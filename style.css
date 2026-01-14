@@ -28,3 +28,10 @@
         font-family: "TimeNewRoman";
         src: url('font-times-new-roman-master/Times\ New\ Roman.ttf');
     }
+
+
+@media screen and (min-width: 180px) and (max-width: 350px) {
+main{
+    padding: 20px;
+}
+}

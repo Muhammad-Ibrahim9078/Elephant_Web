@@ -1,0 +1,30 @@
+    body {
+        background: radial-gradient(circle at center, #111 10%, #000 70%);
+        color: #fff;
+        font-family: sans-serif;
+
+        background-image: url("images/Elephant\ Bg.png");
+
+        /* Cover full screen */
+        background-size: cover;
+        height: 80vh;
+
+        /* Center the image */
+        background-position: center;
+
+        /* Image does not repeat */
+        background-repeat: no-repeat;
+
+        /* Make it fixed while scrolling */
+        background-attachment: fixed;
+
+        /* Optional: smooth fallback color */
+        background-color: #000;
+
+        font-family: "TimeNewRoman";
+    }
+
+    @font-face {
+        font-family: "TimeNewRoman";
+        src: url('font-times-new-roman-master/Times\ New\ Roman.ttf');
+    }

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Elephant</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- Header -->
+    <div class="flex justify-between m-[50px]">
+<!-- Navigation Bar -->
+        <nav>
+            <select name="selections" class="w-[35px]">
+                <option value="" class="text-black">☰</option>
+                <option value="home" class="text-black">Home</option>
+                <option value="about" class="text-black">About</option>
+                <option value="contact" class="text-black">Contact</option>
+            </select>
+        </nav>
+
+
+
+        <div class="flex gap-[20px] items-center">
+            <button class="border pl-[20px] pr-[20px] p-1 rounded hover:bg-white hover:text-black   ">All Episodes</button>
+            <p class="font-bold">EN</p>
+        </div>
+
+
+    </div>
+
+    <!-- Main Content -->
+<main class="mt-[130px] flex justify-around items-end flex-wrap">
+
+    <!-- Main Heading -->
+    <div class="w-[350px]">
+         <div class="text-[80px] mt-[-20px] p-0 flex flex-wrap w-[10px]" >
+                <span >The</span>
+                <span class=" mt-[-45px]">elephant</span>
+                <span class=" mt-[-45px]">queen</span>
+            </div>
+            <p class="text-[12px]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, saepe repellendus dolorem cumque laborum nesciunt tempore aperiam culpa aliquam sint, adipisci nemo minus, ducimus harum dolores. Voluptas earum eum sequi.</p>
+    </div>
+
+
+    <div class=" ml-[250px] hidden sm:block">
+        <p>This is Elephant</p>
+        <p>How are You</p>
+    </div>
+</main>
+
+
+<!-- Footer -->
+
+<footer class="flex justify-between items-center flex-wrap m-[30px] mt-[120px]">
+    <!-- Social Media Links-->
+    <div class="flex gap-[20px]">
+        <img src="images/Social Media icons/facebook icon.PNG" alt="Facebook" width="40px" class="hover:scale-115">
+        <img src="images/Social Media icons/insta icon.png" alt="Instagram" width="40px" class="hover:scale-115">
+        <img src="images/Social Media icons/youtube iocn.png" alt="Youtube" width="40px" class="hover:scale-115">
+
+    </div>
+
+    <div>
+        <p>Term & Condition | Privacy | Contact</p>
+    </div>
+
+</footer>
+</body>
+
+</html>
